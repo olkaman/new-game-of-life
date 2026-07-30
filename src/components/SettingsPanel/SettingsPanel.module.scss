@@ -1,0 +1,40 @@
+@use '../../GlobalStyles.scss' as *;
+
+.settingsPanel {
+  width: $side-menu-width;
+  background: url('../../assets/background.jpg') center center no-repeat;
+  height: 100vh;
+  color: $text-color-on-dark;
+
+  .wrapper {
+    background-color: rgba(27, 27, 27, 0.4);
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    width: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h2 {
+      margin: 0;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    .buttons {
+      margin-top: 30px;
+      display: block;
+    }
+
+    aside {
+      .rules {
+        text-align: center;
+        display: block;
+      }
+    }
+  }
+}

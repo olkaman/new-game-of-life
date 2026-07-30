@@ -1,0 +1,7 @@
+@use './GlobalStyles.scss' as *;
+
+.mainContainer {
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+}

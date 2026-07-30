@@ -1,0 +1,11 @@
+@use '../../GlobalStyles.scss' as *;
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+label {
+  font-size: $text-small-size;
+}
