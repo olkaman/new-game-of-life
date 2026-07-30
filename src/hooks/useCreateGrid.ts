@@ -1,9 +1,9 @@
-import { rowCount, colCount } from '../utils/boardSize';
+import { rowCount, colCount } from '../utils/boardSize'
 
 export const useCreateGrid = () => {
-  const row = [];
+  const grid = []
   for (let i = 0; i < rowCount; i++) {
-    row.push(Array(colCount).fill(0));
+    grid.push(Array(colCount).fill(0))
   }
-  return row;
-};
+  return grid
+}
