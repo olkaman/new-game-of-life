@@ -4,4 +4,12 @@
   width: calc(100% - $side-menu-width);
   padding: 24px;
   box-sizing: border-box;
+  overflow: auto;
+}
+
+.canvas {
+  display: block;
+  cursor: pointer;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
 }
